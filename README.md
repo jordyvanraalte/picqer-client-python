@@ -1,5 +1,16 @@
-# Example Package
+Piqcer client python by Jordy van Raalte
+==========
 
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+This project is python package to use the Piqcer API for python applications.
+
+The documenation ofPpiqcer can be found on [picqer.com/en/api](https://picqer.com/en/api)
+
+## installation
+TODO: installation guide
+
+## Examples
+TODO: examples
+
+
+## Bug reporting
+If you find any bugs in the application please open up an issue in this repository.
