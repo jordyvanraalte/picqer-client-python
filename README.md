@@ -6,7 +6,9 @@ This project is a python package to use the Piqcer API for python applications. 
 The documentation of Piqcer can be found on [picqer.com/en/api](https://picqer.com/en/api)
 
 ## Installation
-TODO: installation guide
+```
+pip install piqcer-client-python
+```
 
 ## Examples
 
