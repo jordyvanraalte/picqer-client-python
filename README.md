@@ -34,6 +34,11 @@ response = client.products.post(json.dumps(product_object))
 print(response.status_code) # 201
 ```
 
+Process backorders:
+```python
+# processes backorders
+client.backorders.process()
+```
 
 
 ## Bug reporting
