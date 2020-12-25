@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="piqcer-client-jordyvanraalte",
-    version="0.0.1",
+    version="0.9.0",
     author="Jordy van Raalte",
     author_email="j.j.c.van.raalte@gmail.com",
-    description="This package provides a picqer client which can be used in order to contact the piqcer API",
+    description="This package provides a Picqer client which can be used in order to contact the Piqcer API",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/jordyvanraalte/piqcer-client-python",

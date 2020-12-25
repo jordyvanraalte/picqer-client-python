@@ -3,9 +3,9 @@ Piqcer client python by Jordy van Raalte
 
 This project is python package to use the Piqcer API for python applications. Compatible with Python >= 3.6
 
-The documenation ofPpiqcer can be found on [picqer.com/en/api](https://picqer.com/en/api)
+The documentation of Piqcer can be found on [picqer.com/en/api](https://picqer.com/en/api)
 
-## installation
+## Installation
 TODO: installation guide
 
 ## Examples

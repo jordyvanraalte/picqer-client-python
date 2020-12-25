@@ -9,19 +9,19 @@ class Receipts(Resource):
 
     def mark_all_received(self, id):
         return requests.post(self.config.base_url + self.path + "/" + str(id) + "/mark-all-received", verify=True,
-                             auth=HTTPBasicAuth(self.config.api_key, '')).json()
+                             auth=HTTPBasicAuth(self.config.api_key, ''))
 
     def scan_product(self, id, product_object):
         return requests.post(self.config.base_url + self.path + "/" + str(id) + "/products", data=product_object, verify=True,
-                             auth=HTTPBasicAuth(self.config.api_key, '')).json()
+                             auth=HTTPBasicAuth(self.config.api_key, ''))
 
     def add_product(self, id, product_object):
         return requests.post(self.config.base_url + self.path + "/" + str(id) + "/products?force=true", data=product_object,
                              verify=True,
-                             auth=HTTPBasicAuth(self.config.api_key, '')).json()
+                             auth=HTTPBasicAuth(self.config.api_key, ''))
 
     def change_amount_or_location(self, id, id_product, change_object):
         return requests.post(self.config.base_url + self.path + "/" + str(id) + "/products/" + str(id_product),
                              data=change_object,
                              verify=True,
-                             auth=HTTPBasicAuth(self.config.api_key, '')).json()
+                             auth=HTTPBasicAuth(self.config.api_key, ''))
