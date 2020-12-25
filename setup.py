@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'piqcer-client-python',
-  packages = ['piqcer-client-pytho'],
+  packages = ['piqcer-client-python'],
   version = '0.9',
   license='MIT',
   description = 'TYPE YOUR DESCRIPTION HERE',
