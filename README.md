@@ -12,6 +12,11 @@ pip install piqcer-client-python
 
 ## Examples
 
+Installing the package:
+```python
+from piqcer_client_python.piqcer_client import Client
+```
+
 Creating a Piqcer client:
 ```python
 client = Client("--API-KEY--", "https://example.picqer.com/api/v1/")
