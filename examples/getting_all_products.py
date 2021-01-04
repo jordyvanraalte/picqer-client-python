@@ -1,4 +1,4 @@
-from piqcer_client_python.piqcer_client import Client
+from picqer_client_python.picqer_client import Client
 
 client = Client("--API-KEY--", "https://example.picqer.com/api/v1/") # --API-KEY-- "--BASE-URL--"
 

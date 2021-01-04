@@ -1,23 +1,24 @@
-Piqcer client python by Jordy van Raalte
+Picqer client python by Jordy van Raalte
 ==========
 
-This project is a python package to use the Piqcer API for python applications. Compatible with Python >= 3.6
+This project is a python package to use the Picqer API for python applications. Compatible with Python >= 3.6
 
-The documentation of Piqcer can be found on [picqer.com/en/api](https://picqer.com/en/api)
+The documentation of Picqer can be found on [picqer.com/en/api](https://picqer.com/en/api)
 
 ## Installation
 ```
-pip install piqcer-client-python
+pip install picqer-client-python
 ```
 
 ## Examples
 
 Installing the package:
+
 ```python
-from piqcer_client_python.piqcer_client import Client
+from picqer_client_python.picqer_client import Client
 ```
 
-Creating a Piqcer client:
+Creating a Picqer client:
 ```python
 client = Client("--API-KEY--", "https://example.picqer.com/api/v1/")
 ```

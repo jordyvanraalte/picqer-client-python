@@ -1,1 +1,0 @@
-from piqcer_client_python.piqcer_client import Client

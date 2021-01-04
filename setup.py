@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
-  name = 'piqcer_client_python',
-  packages = ['piqcer_client_python', 'piqcer_client_python/config', 'piqcer_client_python/resources'],
+  name = 'picqer_client_python',
+  packages = ['picqer_client_python', 'picqer_client_python/config', 'picqer_client_python/resources'],
   version = '1.0.4',
   license='MIT',
-  description = 'Piqcer client for python',
+  description = 'Picqer client for python',
   author = 'Jordy van Raalte',
   author_email = 'j.j.c.van.raalte@gmail.com',
   url = 'https://github.com/jordyvanraalte/piqcer-client-python',
-  download_url = 'https://github.com/jordyvanraalte/piqcer-client-python/archive/0.9.tar.gz',
+  download_url = 'https://github.com/jordyvanraalte/piqcer-client-python/archive/1.5.tar.gz',
   keywords = ['piqcer', 'piqcer-client', 'picqer-client-python'],
   install_requires=[
           'requests'
