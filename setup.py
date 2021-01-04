@@ -7,8 +7,8 @@ setup(
   description = 'Picqer client for python',
   author = 'Jordy van Raalte',
   author_email = 'j.j.c.van.raalte@gmail.com',
-  url = 'https://github.com/jordyvanraalte/piqcer-client-python',
-  download_url = 'https://github.com/jordyvanraalte/piqcer-client-python/archive/1.5.tar.gz',
+  url = 'https://github.com/jordyvanraalte/picqer-client-python',
+  download_url = 'https://github.com/jordyvanraalte/piqcer-client-python/archive/1.1.tar.gz',
   keywords = ['piqcer', 'piqcer-client', 'picqer-client-python'],
   install_requires=[
           'requests'
