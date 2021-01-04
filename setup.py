@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'picqer_client_python',
   packages = ['picqer_client_python', 'picqer_client_python/config', 'picqer_client_python/resources'],
-  version = '1.0.4',
+  version = '1.1',
   license='MIT',
   description = 'Picqer client for python',
   author = 'Jordy van Raalte',
